@@ -1,0 +1,171 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:hsl(174, 20%, 90%);;
+    color:#333;
+    text-align: center;
+}
+
+header {
+    background:#333333;
+   color: white;
+   padding: 05px;
+   
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: bold;
+    
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* conteneur principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;  
+  }
+  
+  /* Naviguation */
+  nav {
+      position:relative;
+      color: white;
+     margin: 0 15px;
+     text-decoration: none;
+     font-weight: bold;
+  }
+
+  .logo {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  
+header nav ul  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+/* section Yassi */
+#Yassi{
+    position: relative;
+    height: 80vh;
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("Passion.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center; 
+    padding-top: 150px;        
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #cde5e9;
+    border-radius: 15px;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(211, 16, 16, 0.1);
+    text-align: center;
+}
+¨
+
+.description {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55%;
+    padding: 20px;
+    background-color: #0a539c;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.description p{
+    margin-bottom:15px ;
+}
+
+#Project{
+    position: relative;
+    padding: 10px 0;
+    
+}
+.Projects-container {
+    position: relative;
+    width: 7%;
+}
+
+
+.h1{
+    text-align: center;
+}
+h1 h2 {
+   
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+footer {
+    background-color: #333;
+    color:#fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
